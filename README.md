@@ -3,20 +3,27 @@ https://github.com/adrianchifor/Swiftnotes
 https://play.google.com/store/apps/details?id=com.moonpi.swiftnotes&hl=uk
 
 To run these tests you need to do the following:
-1. Install android sdk
+
+1. Install maven
+https://maven.apache.org/download.cgi
+
+2. Install Java 8 
+http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+
+3. Install android sdk
 https://android-sdk.en.softonic.com/
 
-2. Install Android Studio
+4. Install Android Studio
 https://developer.android.com/studio/index.html
 
-3. Install appium 
+5. Install appium 
 http://appium.io/index.html?lang=en
 
-4. Add the ANDROID_HOME variable (link to Android-SDK)
+6. Add the ANDROID_HOME variable (link to Android-SDK)
 
-5. Setup & start the android device emulator in Android Studio
+7. Setup & start the android device emulator in Android Studio
 
-6. start appium – use the command line & command ‘appium’
+8. start appium – use the command line & command ‘appium’
 
-7. run the tests using the command
+9. run the tests using the command
 mvn test
